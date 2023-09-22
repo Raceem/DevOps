@@ -1,0 +1,44 @@
+package com.example.demo;
+
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.demo.dao.MemberRepository;
+import com.example.demo.entities.Etudiant;
+
+import lombok.AllArgsConstructor;
+
+@SpringBootApplication
+@AllArgsConstructor
+public class MemberApplication implements CommandLineRunner{
+	@Autowired
+	MemberRepository memberRepository;
+	public static void main(String[] args) {
+		SpringApplication.run(MemberApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		Etudiant etd1 = Etudiant.builder()
+				.cin("123456")
+				.diplome("Mastere")
+				.dateInscription(new Date())
+				.dateNaissance(new Date())
+				.Email("etd1@gmail.com")
+				.password("pass1")
+				.encadrant(null)
+				.CV("cv1")
+				.nom("racem")
+				.prenom("wiiw")
+				.sujet("iot")
+				.build();
+		memberRepository.save(etd1);
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.InheritanceType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.DiscriminatorType"/>
+    <fullyQualifiedTypeName name="io.micrometer.common.lang.NonNull"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Temporal"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NonNull"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.example.demo.dao.MemberRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Membre"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Etudiant"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.EnseignantChercheur"/>
+    <fullyQualifiedTypeName name="com.example.demo.dao.EnseignantChercheurRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.dao.EtudiantRepository"/>
+</qualifiedTypeNameHistroy>
